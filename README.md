@@ -1,5 +1,7 @@
 # MangaTrace Web MVP
 
+English | [日本語](README.ja.md)
+
 MangaTrace Web MVP is a minimal FastAPI + SQLite + Pillow prototype for serving per-view, low-visibility forensic-watermarked manga images.
 
 The goal is **not** to make images impossible to save. Once an image is displayed in a browser, it can be copied through DevTools, screenshots, screen recording, or a camera. The goal is to ensure that the image returned to the browser is already watermarked with a short per-view payload that can later be mapped back to a database record.

@@ -52,7 +52,7 @@ manga_trace_web_mvp/
 ## セットアップ
 
 ```bash
-git clone https://github.com/YOUR_NAME/manga-trace-web-mvp.git
+git clone https://github.com/Hum1Tab/manga-trace-web-mvp.git
 cd manga-trace-web-mvp
 python -m venv .venv
 ```
@@ -160,7 +160,6 @@ python tools/extract_saved_image.py data/pages/page_001/base.png saved_watermark
 - 実際の漫画ページをコミットしない。
 - 実ユーザーデータをコミットしない。
 - 抽出調査ケースや調査結果をコミットしない。
-- GitHubリポジトリ作成後、README内の `YOUR_NAME` を自分のユーザー名に置き換える。
 
 公開手順:
 
@@ -169,7 +168,7 @@ git init
 git add .
 git commit -m "Initial MangaTrace Web MVP"
 git branch -M main
-git remote add origin https://github.com/YOUR_NAME/manga-trace-web-mvp.git
+git remote add origin https://github.com/Hum1Tab/manga-trace-web-mvp.git
 git push -u origin main
 ```
 

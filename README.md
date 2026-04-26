@@ -52,7 +52,7 @@ manga_trace_web_mvp/
 ## Setup
 
 ```bash
-git clone https://github.com/YOUR_NAME/manga-trace-web-mvp.git
+git clone https://github.com/Hum1Tab/manga-trace-web-mvp.git
 cd manga-trace-web-mvp
 python -m venv .venv
 ```
@@ -160,7 +160,6 @@ Before pushing publicly:
 - Do not commit real manga pages.
 - Do not commit real user data.
 - Do not commit extraction cases or investigation outputs.
-- Replace `YOUR_NAME` in README commands after creating the GitHub repo.
 
 Publish:
 
@@ -169,7 +168,7 @@ git init
 git add .
 git commit -m "Initial MangaTrace Web MVP"
 git branch -M main
-git remote add origin https://github.com/YOUR_NAME/manga-trace-web-mvp.git
+git remote add origin https://github.com/Hum1Tab/manga-trace-web-mvp.git
 git push -u origin main
 ```
 
